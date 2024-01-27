@@ -52,15 +52,15 @@ function finish()
     var cnt1 = $("#counting").val();
     var tim=$("#timecount").val();
     alert("Congratulations! You have won the game Total Move : "+cnt1+"   Time : "+tim+" seconds");
-    if(confirm("Do you want to play again"))
+    if(confirm("Do you want to play again?"))
     {
         stopCount();
-        window.location.href="index.php";
+        window.location.href="index.html";
     }
-    else
-    {
-        window.location.href="../memory-game.php";
-    }
+    // else
+    // {
+    //     window.location.href="../memory-game.php";
+    // }
 }
 function ctck()
 {
